@@ -17,7 +17,9 @@ Me estoy especializando en **informática forense** y **seguridad**, y además d
 
 **[adb-triage-android](https://github.com/agusfar45/adb-triage-android)**: triage de celulares Android por ADB. Identifica el equipo, mide el desfase de su reloj, marca apps de interés pericial y copia archivos verificando la copia con hashes calculados en el propio teléfono. Genera un acta de extracción con el registro de cada comando. Ejecuta solo comandos de lectura, y eso lo comprueban pruebas automáticas.
 
-Herramientas: Python · scapy · ADB · SQLite · `sha256sum` · `xxd` · `grep`/`awk` · Pillow (EXIF) · Linux · Wireshark (filtros)<br>
+**[hardening-ubuntu](https://github.com/agusfar45/hardening-ubuntu)**: script en Bash que aplica a un servidor Ubuntu las recomendaciones del Caso 3. Deja SSH solo con clave y configura ufw, fail2ban, auditd y logs remotos. Audita antes y después, simula, respalda y revierte, y se prueba en **Ubuntu 22.04 y 24.04 reales** con GitHub Actions. Probándolo descubrí que en Ubuntu 22.04 reiniciar journald apaga la auditoría del kernel sin aviso.
+
+Herramientas: Python · Bash · scapy · ADB · SQLite · `sha256sum` · `xxd` · `grep`/`awk` · Pillow (EXIF) · Linux (ufw, fail2ban, auditd) · GitHub Actions · Wireshark (filtros)<br>
 Marco de trabajo: cadena de custodia · ISO/IEC 27037 · IRAM 36100 · Ley 26.388
 
 ### Desarrollo web

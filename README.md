@@ -13,7 +13,9 @@ Me estoy especializando en **informática forense** y **seguridad**, y además d
 | Pendrive formateado | Hice file carving por firmas, recuperé 5 archivos y analicé uno sobrescrito parcialmente |
 | Servidor Linux | Analicé `auth.log`: fuerza bruta SSH, escalada con sudo, persistencia, exfiltración y borrado de logs. Propuse recomendaciones de hardening |
 
-Herramientas: Python · SQLite · `sha256sum` · `xxd` · `grep`/`awk` · Pillow (EXIF) · Linux · Wireshark (filtros)<br>
+**[analizador-pcap-forense](https://github.com/agusfar45/analizador-pcap-forense)**: análisis de capturas de red con Python y scapy. Saca DNS, HTTP, sitios HTTPS (SNI) y conversaciones, y alerta exfiltración, fuerza bruta y conexiones sin DNS. Genera un informe HTML y tiene pruebas automáticas. La demo reconstruye desde la red el ataque del Caso 3.
+
+Herramientas: Python · scapy · SQLite · `sha256sum` · `xxd` · `grep`/`awk` · Pillow (EXIF) · Linux · Wireshark (filtros)<br>
 Marco de trabajo: cadena de custodia · ISO/IEC 27037 · IRAM 36100 · Ley 26.388
 
 ### Desarrollo web
@@ -25,6 +27,6 @@ Tecnologías: JavaScript · React · HTML/CSS · Bootstrap · Python · SQL
 
 ### Qué estoy aprendiendo ahora
 
-Autopsy / The Sleuth Kit · Foremost · ALEAPP (análisis de extracciones Android) · análisis de tráfico con Wireshark
+Autopsy / The Sleuth Kit · Foremost · ALEAPP (análisis de extracciones Android) · Zeek y Wireshark para tráfico de red
 
 Salta, Argentina

@@ -19,7 +19,9 @@ Me estoy especializando en **informática forense** y **seguridad**, y además d
 
 **[hardening-ubuntu](https://github.com/agusfar45/hardening-ubuntu)**: script en Bash que aplica a un servidor Ubuntu las recomendaciones del Caso 3. Deja SSH solo con clave y configura ufw, fail2ban, auditd y logs remotos. Audita antes y después, simula, respalda y revierte, y se prueba en **Ubuntu 22.04 y 24.04 reales** con GitHub Actions. Probándolo descubrí que en Ubuntu 22.04 reiniciar journald apaga la auditoría del kernel sin aviso.
 
-Herramientas: Python · Bash · scapy · ADB · SQLite · `sha256sum` · `xxd` · `grep`/`awk` · Pillow (EXIF) · Linux (ufw, fail2ban, auditd) · GitHub Actions · Wireshark (filtros)<br>
+**[cyberdefenders-lockdown](https://github.com/agusfar45/cyberdefenders-lockdown)**: write-up del lab Lockdown de CyberDefenders (11/11). Reconstruí la intrusión a un servidor IIS: escaneo, web shell subida por SMB, reverse shell y persistencia, desde la captura de red y la memoria (Volatility 3). La muestra la analicé sin escribirla en disco, y el C2 de AgentTesla lo confirmé en la memoria, no solo en VirusTotal.
+
+Herramientas: Python · Bash · scapy · Volatility 3 · pefile · ADB · SQLite · `sha256sum` · `xxd` · `grep`/`awk` · Pillow (EXIF) · Linux (ufw, fail2ban, auditd) · GitHub Actions · Wireshark (filtros)<br>
 Marco de trabajo: cadena de custodia · ISO/IEC 27037 · IRAM 36100 · Ley 26.388
 
 ### Desarrollo web

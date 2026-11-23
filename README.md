@@ -17,6 +17,8 @@ Me estoy especializando en **informática forense** y **seguridad**, y además d
 
 **[adb-triage-android](https://github.com/agusfar45/adb-triage-android)**: triage de celulares Android por ADB. Identifica el equipo, mide el desfase de su reloj, marca apps de interés pericial y copia archivos verificando la copia con hashes calculados en el propio teléfono. Genera un acta de extracción con el registro de cada comando. Ejecuta solo comandos de lectura, y eso lo comprueban pruebas automáticas.
 
+**[linea-tiempo-forense](https://github.com/agusfar45/linea-tiempo-forense)**: une en una sola línea de tiempo WhatsApp, fotos (EXIF), Sleuth Kit, `auth.log`, Volatility y CSV. Corrige el reloj del equipo con el desfase que mide adb_triage, marca discrepancias como fotos viejas, archivos borrados o fechas imposibles, y verifica por hash que la evidencia no cambie. Probado en Ubuntu y Windows con GitHub Actions.
+
 **[hardening-ubuntu](https://github.com/agusfar45/hardening-ubuntu)**: script en Bash que aplica a un servidor Ubuntu las recomendaciones del Caso 3. Deja SSH solo con clave y configura ufw, fail2ban, auditd y logs remotos. Audita antes y después, simula, respalda y revierte, y se prueba en **Ubuntu 22.04 y 24.04 reales** con GitHub Actions. Probándolo descubrí que en Ubuntu 22.04 reiniciar journald apaga la auditoría del kernel sin aviso.
 
 **[cyberdefenders-lockdown](https://github.com/agusfar45/cyberdefenders-lockdown)**: write-up del lab Lockdown de CyberDefenders (11/11). Reconstruí la intrusión a un servidor IIS: escaneo, web shell subida por SMB, reverse shell y persistencia, desde la captura de red y la memoria (Volatility 3). La muestra la analicé sin escribirla en disco, y el C2 de AgentTesla lo confirmé en la memoria, no solo en VirusTotal.
